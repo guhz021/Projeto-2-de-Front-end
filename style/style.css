@@ -1,0 +1,163 @@
+body{
+  background-color: azure;
+  margin: 0;
+  overflow-y: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header{
+  background-color: #054f77;
+  padding: 20PX;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  font-size: 39px;
+}
+.footer{
+  background-color: #054f77;
+  padding: 10PX;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  height: 150px;
+}
+.footer2{
+  display: flex;
+  gap: 30px;
+}
+.footer2 img {
+  display: block;
+  margin: -20px auto 0 auto;
+  border-radius: 20px;
+  height: 120px;
+}
+.item{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 72.7vh;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.forms {
+  max-width: 480px;           
+  margin: 40px auto;      
+  padding: 30px 25px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  gap: 20px;                
+}
+
+.forms h1, .forms h2 {
+  margin: 0 0 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+form#userForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;              
+  align-items: center;
+}
+
+form#userForm input,
+form#userForm button {
+  width: 100%;
+  max-width: 350px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+form#userForm button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form#userForm button:hover {
+  background-color: #0056b3;
+}
+
+#pesquisa {
+  width: 100%;
+  max-width: 350px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#limparPesquisa, #excluirTodos {
+  width: 160px;
+  padding: 10px;
+  margin: 5px 10px 0 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+#limparPesquisa:hover, #excluirTodos:hover {
+  background-color: #a71d2a;
+}
+
+#listaUsuarios {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 350px;
+  margin-top: 20px;
+}
+
+#listaUsuarios li {
+  background-color: #f8f9fa;
+  margin-bottom: 12px;
+  padding: 12px 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+}
+
+#listaUsuarios li button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+#listaUsuarios li button:hover {
+  background-color: #a71d2a;
+}

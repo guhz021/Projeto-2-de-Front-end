@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administração</title>
+  <link rel="stylesheet" href="/style/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="header">ADMINISTRAÇÃO</section>
+
+  <section class="forms">
+    <h1>Cadastro de Usuários</h1>
+
+    <form id="userForm">
+      <input type="text" id="nome" placeholder="Nome do usuário" required>
+      <input type="email" id="email" placeholder="E-mail" required>
+      <button type="submit">Cadastrar</button>
+      <button type="button" id="limparCampos">Limpar Campos</button>
+    </form>
+
+    <br>
+
+    <input type="text" id="pesquisa" placeholder="Pesquisar nome ou e-mail">
+    <button id="limparPesquisa">Limpar Pesquisa</button>
+    <button id="excluirTodos">Excluir Todos</button>
+
+    <h2>Lista de Usuários</h2>
+    <ul id="listaUsuarios"></ul>
+
+  </section>
+
+
+  <script src="/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+
+body {
+    background-color: #e0f7fa;
+    font-family: 'Arial', sans-serif;
+    color: #004d40;
+    margin: 20px;
+}
+
+
+#nome {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #00695c;
+}
+
+
+.legenda {
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    color: #00796b;
+}
+
+
+a[href^="mailto"] {
+    color: #00796b;
+    text-decoration: underline;
+}
+
+h2 {
+    background-color: #b2dfdb;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+ol, ul {
+    font-style: oblique;
+}
+
+.github {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.contatos {
+    text-decoration: overline;
+}
+.foto-perfil {
+    text-align: center;
+}

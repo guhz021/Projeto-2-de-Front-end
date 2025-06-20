@@ -1,0 +1,46 @@
+/* Seletor por elemento */
+body {
+  background-color: #f0f8ff;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Seletor por ID */
+#topo {
+  background-color: #4f81bd;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Seletor por classe */
+.nome {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.foto-perfil img {
+  border-radius: 50%;
+  border: 3px solid #333;
+}
+
+/* Seletor por atributo */
+li[data-cidade] {
+  font-style: oblique;
+  color: #2f4f4f;
+}
+
+/* Seletor por pseudo-classe */
+a:hover {
+  color: red;
+  text-decoration: line-through;
+}
+
+/* Mais decorações de texto */
+.descricao {
+  text-align: justify;
+  text-decoration: overline;
+  font-weight: normal;
+}
